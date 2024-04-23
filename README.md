@@ -2,7 +2,8 @@
 
 Challenges were completed on Windows 11.
 
-Challenge 1
+## Challenge 1
+
 Uses Docker and NGINX to host a simple web server that serves static web pages.
 
 1. Create a folder labeled "public" in the "challenge1" folder.
@@ -30,7 +31,8 @@ Uses Docker and NGINX to host a simple web server that serves static web pages.
 
 9. On a web browser, go to http://localhost.8080/ and if done correctly, you should see your name and student ID being displayed.
 
-Challenge 2
+## Challenge 2
+
 Uses Docker, NGINX, and Node.js to create a dynamic application and a "docker-compose.yml" file that is responsible for the web server and creating the application.
 
 1. Download the "challenge2.zip" folder provided by your instructor.
@@ -93,7 +95,8 @@ Uses Docker, NGINX, and Node.js to create a dynamic application and a "docker-co
 
 9. Go to http://localhost:8080/api/books/1/, and if done correctly, you should see the first book being displayed.
 
-Challenge 3
+## Challenge 3
+
 Uses Docker, NGINX, mariadb, and Node.js to create a dynamic application and a "docker-compose.yml" file that is responsible for the web server and creating the application.
 
 1.	Click on this link to open the GitHub repository that contains the Docker challenge template.
@@ -139,7 +142,8 @@ Note: If you encounter any errors during the building process, ensure the paths 
 
 13.	To check the services that are running, and their status, enter ‘docker-compose ps’ in a new command prompt terminal, in the ‘challenge3’ directory.
 
-Challenge 4
+## Challenge 4
+
 Scales up the application from challenge 3
 
 1.	Using the application from challenge 3, while it is running, head to http://localhost.8080/api/stats/ to make a GET request. 
