@@ -110,6 +110,8 @@ Note: You can opt to download the repository as a .zip file, and just extract th
 6.	Download the ‘challenge3.zip’ provided by your instructor and extract the contents into the “challenge3” folder in the docker challenge repository.
 
 7.	In the ‘challenge3’ folder, create a file labeled ‘.env’ and input the following lines to create the environment variables used for the challenge.
+
+```
 DB_ROOT_PASSWORD=<password>
 DB_DATABASE=<database>
 DB_USERNAME=<username>
@@ -119,6 +121,8 @@ MYSQL_DATABASE=<database>
 MYSQL_USER=<user>
 MYSQL_PASSWORD=<password>
 MYSQL_HOST=<host>
+```
+
 Note: You can input what you like for the passwords and usernames. For both hosts, simply input ‘db’. For more information, click here.
 
 8.	In the ‘challenge3’ folder, create a file labeled ‘docker-compose.yml’ and configure it accordingly to use NGINX, node-service, and db services.
